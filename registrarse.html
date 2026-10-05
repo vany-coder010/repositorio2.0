@@ -53,8 +53,9 @@
                 <input type="text" id="nomUsuario" class="validate" required>
               </div>
               <div class="input-field col s6">
-                <label for="contraseña">Ingresa tu contraseña</label>
-                <input type="password" id="contraseña" class="validate" required>
+                <label for="contraseña">example@11233tyeb</label>
+                <input type="password" id="contraseña" class="validate" required pattern="(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*]).{8,}">
+                <span class="helper-text" data-error="Debe tener mínimo 8 caracteres, una mayúscula, una minúscula, un número y un símbolo."></span> 
               </div>
               <div class="input-field col s6">
                 <label for="contraseña">Confirma tu contraseña</label>
